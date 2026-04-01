@@ -4,7 +4,7 @@ const About = () => {
   return (
     <section className="bg-[#0c0f17] text-white px-6 md:px-16 py-16">
 
-      <div className="flex flex-col md:flex-row gap-12">
+      <div className="flex flex-col-reverse md:flex-row gap-12">
 
       {/* RIGHT SIDE */}
 <div className="flex-1 flex gap-6 md:mt-5">
@@ -73,7 +73,7 @@ const About = () => {
         {/* LEFT SIDE */}
         <div className="flex-1 space-y-6">
 
-          <h2 className="text-4xl md:text-5xl font-bold">
+          <h2 className="text-2xl md:text-5xl font-bold">
             About Me
           </h2>
 

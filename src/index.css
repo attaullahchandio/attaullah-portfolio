@@ -1,0 +1,9 @@
+
+@import "tailwindcss";
+.bg-color{
+    background-color: #1e2a38;
+    color: #e0e0e0;
+    height: 100vh;
+    width: 100vw;
+
+}

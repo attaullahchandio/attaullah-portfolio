@@ -1,9 +1,8 @@
 import React from "react";
-
 const projects = [
   {
     title: "Portfolio Website",
-    video: "https://youtu.be/Uq1FVAe9QhQ?si=32Cm6GI5uK0MpHHc",
+    video: "https://www.w3schools.com/html/mov_bbb.mp4",
     tech: ["HTML", "CSS", "JS", "React"],
     description: "A responsive portfolio website to showcase my projects and skills.",
     github: "https://github.com/username/portfolio",
@@ -11,19 +10,18 @@ const projects = [
   },
   {
     title: "E-commerce App",
-    video: "https://youtu.be/Uq1FVAe9QhQ?si=32Cm6GI5uK0MpHHc",
+    video: "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",
     tech: ["React", "Node.js", "Express", "MongoDB"],
     description: "An e-commerce web app with product listing, cart, and payment integration.",
     github: "https://github.com/username/ecommerce",
     live: "https://ecommerceapp.com"
   },
-  // add more projects here
 ];
 
 const Projects = () => {
   return (
-    <section className="bg-[#0c0f17] text-white px-6 py-12">
-      <h2 className="text-3xl font-bold text-center mb-12">My Projects</h2>
+    <section className="bg-[#0c0f17] text-white px-6 py-6">
+      <h2 className="text-2xl md:text-5xl font-bold text-center mb-12">My Projects</h2>
 
       <div className="flex flex-col gap-20">
         {projects.map((project, index) => {

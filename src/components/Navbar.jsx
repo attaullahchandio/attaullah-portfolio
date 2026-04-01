@@ -5,42 +5,31 @@ const Navbar = () => {
 
   return (
     <nav className="fixed top-0 left-0 w-full z-50 bg-[#0c0f17] text-white shadow-md">
-      
       <div className="flex justify-between items-center px-6 md:px-10 py-5">
-        
         {/* Logo */}
         <h1 className="text-xl font-semibold">Portfolio</h1>
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex gap-8 text-sm">
-          <li>
-            <a href="#home" className="hover:text-orange-500 transition">
-              Home
-            </a>
-          </li>
-          <li>
-            <a href="#about" className="hover:text-orange-500 transition">
-              About
-            </a>
-          </li>
-          <li>
-            <a href="#projects" className="hover:text-orange-500 transition">
-              Projects
-            </a>
-          </li>
-          <li>
-            <a href="#contacts" className="hover:text-orange-500 transition">
-              Contacts
-            </a>
-          </li>
+          {["home", "about", "projects", "contacts"].map((id) => (
+            <li key={id}>
+              <button
+                onClick={() =>
+                  document.getElementById(id).scrollIntoView({
+                    behavior: "smooth",
+                  })
+                }
+                className="hover:text-orange-500 transition"
+              >
+                {id.charAt(0).toUpperCase() + id.slice(1)}
+              </button>
+            </li>
+          ))}
         </ul>
 
         {/* Mobile Icon */}
         <div className="md:hidden cursor-pointer">
-          <span
-            className="text-2xl"
-            onClick={() => setMenuOpen(!menuOpen)}
-          >
+          <span className="text-2xl" onClick={() => setMenuOpen(!menuOpen)}>
             {menuOpen ? "✕" : "☰"}
           </span>
         </div>
@@ -53,26 +42,20 @@ const Navbar = () => {
         }`}
       >
         <ul className="flex flex-col items-center gap-6 py-4 bg-[#0c0f17] text-sm">
-          <li>
-            <a href="#home" onClick={() => setMenuOpen(false)}>
-              Home
-            </a>
-          </li>
-          <li>
-            <a href="#about" onClick={() => setMenuOpen(false)}>
-              About
-            </a>
-          </li>
-          <li>
-            <a href="#projects" onClick={() => setMenuOpen(false)}>
-              Projects
-            </a>
-          </li>
-          <li>
-            <a href="#contacts" onClick={() => setMenuOpen(false)}>
-              Contacts
-            </a>
-          </li>
+          {["home", "about", "projects", "contacts"].map((id) => (
+            <li key={id}>
+              <button
+                onClick={() => {
+                  document.getElementById(id).scrollIntoView({
+                    behavior: "smooth",
+                  });
+                  setMenuOpen(false);
+                }}
+              >
+                {id.charAt(0).toUpperCase() + id.slice(1)}
+              </button>
+            </li>
+          ))}
         </ul>
       </div>
     </nav>

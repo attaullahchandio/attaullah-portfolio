@@ -9,7 +9,7 @@ export default function Footer() {
         
         {/* Title */}
         <h2 className="text-xl md:text-2xl font-semibold">
-  Attaullah khan Chandiooooooooooooo
+  Attaullah Chandio
 </h2>
 
 <p className="text-sm text-gray-300 mt-2">

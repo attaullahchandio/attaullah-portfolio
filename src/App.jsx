@@ -4,8 +4,8 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Navbar from "./components/Navbar";
 import Projects from "./pages/Projects";
-// import Projects from "./pages/Projects";
-// import Contact from "./pages/Contact";
+import Contact from "./pages/Contact";
+import Footer from "./pages/Footer";
 
 function App() {
   return (
@@ -21,9 +21,9 @@ function App() {
         <Projects />
       </section>
       <section id="contact">
-        {/* <Contact /> */}
+        <Contact />
       </section>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

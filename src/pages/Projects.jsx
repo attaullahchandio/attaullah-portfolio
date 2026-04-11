@@ -1,13 +1,22 @@
 import React from "react";
+import v1 from '../../public/videos/rapid-ai.mp4'
 const projects = [
+  // {
+  //   title: "Portfolio Website",
+  //   video: "https://www.w3schools.com/html/mov_bbb.mp4",
+  //   tech: ["HTML", "CSS", "JS", "React"],
+  //   description: "A responsive portfolio website to showcase my projects and skills.",
+  //   github: "https://github.com/username/portfolio",
+  //   live: "https://username.github.io/portfolio"
+  // },
   {
-    title: "Portfolio Website",
-    video: "https://www.w3schools.com/html/mov_bbb.mp4",
-    tech: ["HTML", "CSS", "JS", "React"],
-    description: "A responsive portfolio website to showcase my projects and skills.",
-    github: "https://github.com/username/portfolio",
-    live: "https://username.github.io/portfolio"
-  },
+  title: "Rapid.ai",
+  video: "../../public/videos/rapid-ai.mp4",
+  tech: ["PERN Stack", "OpenAI API"],
+  description: "An AI-powered web application that provides advanced text processing features such as translation, summarization, and language detection. Built using the PERN stack with OpenAI API integration for intelligent responses.",
+  github: "https://github.com/attaullahchandio",
+  live: "https://rapid-ai-omega.vercel.app"
+},
   {
     title: "E-commerce App",
     video: "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",

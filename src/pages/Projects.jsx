@@ -1,5 +1,4 @@
 import React from "react";
-import v1 from "../../public/videos/rapid-ai.mp4";
 const projects = [
   // {
   //   title: "Portfolio Website",

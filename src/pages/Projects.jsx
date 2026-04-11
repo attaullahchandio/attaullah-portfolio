@@ -11,7 +11,7 @@ const projects = [
   {
     title: "Rapid.ai",
     video: "https://www.youtube.com/watch?v=gHdmxGgJ8wM",
-    tech: ["PERN Stack", "OpenAI API"],
+    tech: ["Node.js", "Express", "Clerk", "PostgreSQL", "React.js", "OpenAI API"],
     description:
       "An AI-powered web application that provides advanced text processing features such as translation, summarization, and language detection. Built using the PERN stack with OpenAI API integration for intelligent responses.",
     github: "https://github.com/attaullahchandio",

@@ -18,14 +18,13 @@ const projects = [
     live: "https://rapid-ai-omega.vercel.app",
   },
   {
-    title: "E-commerce App",
+    title: "Quick GPT",
     video:
-      "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",
-    tech: ["React", "Node.js", "Express", "MongoDB"],
-    description:
-      "An e-commerce web app with product listing, cart, and payment integration.",
-    github: "https://github.com/username/ecommerce",
-    live: "https://ecommerceapp.com",
+      "https://www.youtube.com/watch?v=Buy9wJG5h9Y",
+    tech: ["React", "Node.js", "Express", "MongoDB", "OpenAI API", "Stripe"],
+description: "QuickGPT is a full-stack AI-powered chatbot application inspired by ChatGPT, featuring real-time conversational responses, dynamic UI, and seamless OpenAI API integration to deliver intelligent and human-like interactions.",
+    github: "https://github.com/attaullahchandio",
+    live: "https://quick-gpt-five-delta.vercel.app",
   },
 ];
 

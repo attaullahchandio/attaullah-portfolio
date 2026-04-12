@@ -21,7 +21,7 @@ export default function Footer() {
           
           {/* Email */}
           <a
-            href="mailto:your@email.com"
+            href="mailto:attaullahchandio778@gmail.com"
             className="w-11 h-11 flex items-center justify-center rounded-full bg-white text-black hover:bg-orange-400 hover:text-white transition duration-300"
           >
             <MdEmail size={18} />
@@ -29,7 +29,7 @@ export default function Footer() {
 
           {/* GitHub */}
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/attaullahchandio"
             target="_blank"
             rel="noopener noreferrer"
             className="w-11 h-11 flex items-center justify-center rounded-full bg-white text-black hover:bg-orange-400 hover:text-white transition duration-300"
@@ -39,7 +39,7 @@ export default function Footer() {
 
           {/* LinkedIn */}
           <a
-            href="https://linkedin.com/in/yourusername"
+            href="https://linkedin.com/in/attaullahchandio"
             target="_blank"
             rel="noopener noreferrer"
             className="w-11 h-11 flex items-center justify-center rounded-full bg-white text-black hover:bg-orange-400 hover:text-white transition duration-300"
